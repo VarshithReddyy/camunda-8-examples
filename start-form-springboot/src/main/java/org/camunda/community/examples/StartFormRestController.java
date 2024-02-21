@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api")
 public class StartFormRestController {
 
   private static final Logger LOG = LoggerFactory.getLogger(StartFormRestController.class);

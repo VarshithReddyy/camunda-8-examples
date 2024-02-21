@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@EnableZeebeClient
+//@EnableZeebeClient
 @Deployment(resources = "classpath*:/model/*.*")
 public class StartFormProcessApplication {
 
