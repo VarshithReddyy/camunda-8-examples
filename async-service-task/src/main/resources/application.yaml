@@ -1,7 +1,14 @@
 zeebe:
   client:
+    broker:
+      gateway-address: localhost:26500
     security:
       plaintext: true
 
 async-service:
   duration: PT1M
+  
+server:
+  port: 1995
+
+
